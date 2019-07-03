@@ -12,3 +12,12 @@ function forLoop(strangeLoops) {
 }
 
 forLoop(strangeLoops);
+
+var countdown = 100;
+ 
+function whileLoop(countdown) {
+  while (countdown > 0) {
+    console.log(--countdown);
+  }
+  return 'done';
+}
