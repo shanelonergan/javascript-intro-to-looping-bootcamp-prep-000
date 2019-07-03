@@ -3,9 +3,9 @@ var strangeLoops = [];
 function forLoop(strangeLoops) {
   for (var i = 0; i < 25; i++) {
     if (i === 1) {
-      strangeLoops.push = ('I am 1 strange loop.');
+      strangeLoops.push('I am 1 strange loop.');
     } else {
-      strangeLoops.push = (`'I am ${i} strange loops.'`);
+      strangeLoops.push(`I am ${i} strange loops.`);
     }
   }
   return strangeLoops;
